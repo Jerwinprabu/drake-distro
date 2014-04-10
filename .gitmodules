@@ -30,3 +30,6 @@
 	path = libbot
 	url = https://github.com/RobotLocomotion/libbot.git
 	branch = master
+[submodule "gurobi"]
+	path = gurobi
+	url = git@github.com:RobotLocomotion/gurobi.git
