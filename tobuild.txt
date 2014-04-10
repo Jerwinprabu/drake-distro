@@ -8,6 +8,7 @@ bullet
 avl
 xfoil
 spotless
+gurobi
 drake
-
+fastqp
 
