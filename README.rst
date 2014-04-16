@@ -17,13 +17,12 @@ As such, it will not be maintained to work with future versions of drake. If you
 Instructions
 ===============
 
-
 Prerequisite: create a Gurobi account
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - go to http://www.gurobi.com/ and create an account
 
-Step-by-step
-^^^^^^^^^^^^
+Step-by-step install
+^^^^^^^^^^^^^^^^^^^^
 - git clone https://github.com/kuindersma/drake-distro.git
 - cd drake-distro
 - git checkout qp-walking
@@ -32,19 +31,10 @@ Step-by-step
 
 When prompted to enter your gurobi.com username and password, please do so. 
 
-
-Install QP walking code
-^^^^^^^^^^^^^^^^^^^^^^^
-- export PKG_CONFIG_PATH=/path/to/drake-distro/build/lib/pkgconfig:$PKG_CONFIG_PATH
-- export LD_LIBRARY_PATH=/path/to/drake-distro/build/lib:$LD_LIBRARY_PATH
-- git clone https://github.com/kuindersma/qp-walking.git
-- cd qp-walking
-- make
-- cd fastqp
-
-In matlab, run
-
+Running an example in Matlab
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - addpath('/path/to/drake-distro/build/matlab/')
+- cd /path/to/drake-distro/fastqp
 - addpath_fastqp
 - cd matlab/test
 - drakeWalking
