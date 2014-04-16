@@ -32,4 +32,4 @@
 	branch = master
 [submodule "gurobi"]
 	path = gurobi
-	url = git@github.com:RobotLocomotion/gurobi.git
+	url = https://github.com/RobotLocomotion/gurobi.git
