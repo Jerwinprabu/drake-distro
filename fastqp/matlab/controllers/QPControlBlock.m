@@ -735,12 +735,10 @@ classdef QPControlBlock < MIMODrakeSystem
       average_tictoc = (average_tictoc_n*average_tictoc + out_toc)/(average_tictoc_n+1);
       average_tictoc_n = average_tictoc_n+1;
     end
-    if mod(average_tictoc_n,50)==0
-      fprintf('Average control output duration: %2.4f\n',average_tictoc);
-      save info.mat ac updates info;
-    end
-    
-    
+%     if mod(average_tictoc_n,50)==0
+%       fprintf('Average control output duration: %2.4f\n',average_tictoc);
+%       save info.mat ac updates info;
+%     end    
   end
   end
 

@@ -5,7 +5,6 @@ setenv('PATH_LICENSE_STRING','2069810742&Courtesy_License&&&USR&2013&14_12_2011&
 
 addpath_drake;
 
-addpath(fullfile(pwd,'build','matlab'));
 addpath(fullfile(pwd,'matlab'));
 addpath(fullfile(pwd,'matlab','controllers'));
 addpath(fullfile(pwd,'matlab','planners'));

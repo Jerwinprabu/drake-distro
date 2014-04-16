@@ -1,7 +1,6 @@
 build/
 pod-build/
 *.pyc
-data
 .viewer-prefs
 logfile.tmp
 drake_viewer.out
